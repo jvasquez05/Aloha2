@@ -1,0 +1,592 @@
+*EXP.DETAILS: DO3S2101PI CAM ACTIVITY BIOMASS ACCUMULATION AND HARVEST INDEX OF MD-
+
+*GENERAL
+@PEOPLE
+JHONNY VASQUEZ JIMENEZ
+@ADDRESS
+COSTA RICA
+@SITE
+SAN CARLOS, GUANACASTE, SAN VICENTE.
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+    -99   -99   -99   -99   -99   -99   -99   -99   -99   -99
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 CoolZone January           1  1  1  1  1  1  1  0  1  0  0  0  1
+ 2 1 1 0 CoolZone May               1  2  2  2  2  1  2  0  2  0  0  0  1
+ 3 1 1 0 CoolZone September         1  3  3  3  3  1  3  0  3  0  0  0  1
+ 4 1 1 0 WarmZone January           1  4  4  4  4  2  4  0  4  0  0  0  1
+ 5 1 1 0 WarmZone May               1  5  5  5  5  2  5  0  5  0  0  0  1
+ 6 1 1 0 WarmZone September         1  6  6  6  6  2  6  0  6  0  0  0  1
+ 7 1 1 0 TypicZone January          1  7  7  7  7  3  7  0  7  0  0  0  1
+ 8 1 1 0 TypicZone May              1  8  8  8  8  3  8  0  8  0  0  0  1
+ 9 1 1 0 TypicZone September        1  9  9  9  9  3  9  0  9  0  0  0  1
+10 1 1 0 CoolZone January-1r1       1  1  1  1  1  1  1  0 10  0  0  0  1
+11 1 1 0 CoolZone January-1r2       1  1  1  1  1  1  1  0 11  0  0  0  1
+12 1 1 0 CoolZone January-1r3       1  1  1  1  1  1  1  0 12  0  0  0  1
+13 1 1 0 CoolZone May-2r1           1  2  2  2  2  1  2  0 13  0  0  0  1
+14 1 1 0 CoolZone May-2r2           1  2  2  2  2  1  2  0 14  0  0  0  1
+15 1 1 0 CoolZone May-2r3           1  2  2  2  2  1  2  0 15  0  0  0  1
+16 1 1 0 CoolZone Sept-3r1          1  3  3  3  3  1  3  0 16  0  0  0  1
+17 1 1 0 CoolZone Sept-3r2          1  3  3  3  3  1  3  0 17  0  0  0  1
+18 1 1 0 CoolZone Sept-3r3          1  3  3  3  3  1  3  0 18  0  0  0  1
+19 1 1 0 WarmZone January-4r1       1  4  4  4  4  2  4  0 19  0  0  0  1
+20 1 1 0 WarmZone January-4r2       1  4  4  4  4  2  4  0 20  0  0  0  1
+21 1 1 0 WarmZone January-4r3       1  4  4  4  4  2  4  0 21  0  0  0  1
+22 1 1 0 WarmZone May-5r1           1  5  5  5  5  2  5  0 22  0  0  0  1
+23 1 1 0 WarmZone May-5r2           1  5  5  5  5  2  5  0 23  0  0  0  1
+24 1 1 0 WarmZone May-5r3           1  5  5  5  5  2  5  0 24  0  0  0  1
+25 1 1 0 WarmZone Sept-6r1          1  6  6  6  6  2  6  0 25  0  0  0  1
+26 1 1 0 WarmZone Sept-6r2          1  6  6  6  6  2  6  0 26  0  0  0  1
+27 1 1 0 WarmZone Sept-6r3          1  6  6  6  6  2  6  0 27  0  0  0  1
+28 1 1 0 TypicZone January-7r1      1  7  7  7  7  3  7  0 28  0  0  0  1
+29 1 1 0 TypicZone January-7r2      1  7  7  7  7  3  7  0 29  0  0  0  1
+30 1 1 0 TypicZone January-7r3      1  7  7  7  7  3  7  0 30  0  0  0  1
+31 1 1 0 TypicZone May-8r1          1  8  8  8  8  3  8  0 31  0  0  0  1
+32 1 1 0 TypicZone May-8r2          1  8  8  8  8  3  8  0 32  0  0  0  1
+33 1 1 0 TypicZone May-8r3          1  8  8  8  8  3  8  0 33  0  0  0  1
+34 1 1 0 TypicZone Sept-9r1         1  9  9  9  9  3  9  0 34  0  0  0  1
+35 1 1 0 TypicZone Sept-9r2         1  9  9  9  9  3  9  0 35  0  0  0  1
+36 1 1 0 TypicZone Sept-9r3         1  9  9  9  9  3  9  0 36  0  0  0  1
+37 1 1 0 CoolZone 1p1 January-NF    1  1  1  1  1  1  1  0 37  0  0  0  1
+38 1 1 0 CoolZone 1p3 January-NF    1  1  1  1  1  1  1  0 38  0  0  0  1
+39 1 1 0 CoolZone 1p4 January-NF    1  1  1  1  1  1  1  0 39  0  0  0  1
+40 1 1 0 CoolZone 1p5 January-NF    1  1  1  1  1  1  1  0 40  0  0  0  1
+41 1 1 0 CoolZone 1p6 January-NF    1  1  1  1  1  1  1  0 41  0  0  0  1
+42 1 1 0 CoolZone 1p7 January-NF    1  1  1  1  1  1  1  0 42  0  0  0  1
+43 1 1 0 CoolZone 1p10 January-NF   1  1  1  1  1  1  1  0 43  0  0  0  1
+44 1 1 0 CoolZone 2p1 May-NF        1  2  2  2  2  1  2  0 44  0  0  0  1
+45 1 1 0 CoolZone 2p3 May-NF        1  2  2  2  2  1  2  0 45  0  0  0  1
+46 1 1 0 CoolZone 2p4 May-NF        1  2  2  2  2  1  2  0 46  0  0  0  1
+47 1 1 0 CoolZone 2p5 May-NF        1  2  2  2  2  1  2  0 47  0  0  0  1
+48 1 1 0 CoolZone 2p6 May-NF        1  2  2  2  2  1  2  0 48  0  0  0  1
+49 1 1 0 CoolZone 2p7 May-NF        1  2  2  2  2  1  2  0 49  0  0  0  1
+50 1 1 0 CoolZone 2p10 May-NF       1  2  2  2  2  1  2  0 50  0  0  0  1
+51 1 1 0 CoolZone 3p1 Sept-NF       1  3  3  3  3  1  3  0 51  0  0  0  1
+52 1 1 0 CoolZone 3p3 Sept-NF       1  3  3  3  3  1  3  0 52  0  0  0  1
+53 1 1 0 CoolZone 3p4 Sept-NF       1  3  3  3  3  1  3  0 53  0  0  0  1
+54 1 1 0 CoolZone 3p5 Sept-NF       1  3  3  3  3  1  3  0 54  0  0  0  1
+55 1 1 0 CoolZone 3p6 Sept-NF       1  3  3  3  3  1  3  0 55  0  0  0  1
+56 1 1 0 CoolZone 3p7 Sept-NF       1  3  3  3  3  1  3  0 56  0  0  0  1
+57 1 1 0 CoolZone 3p10 Sept-NF      1  3  3  3  3  1  3  0 57  0  0  0  1
+58 1 1 0 WarmZone 4p1 January       1  4  4  4  4  2  4  0 58  0  0  0  1
+59 1 1 0 WarmZone 4p3 January       1  4  4  4  4  2  4  0 59  0  0  0  1
+60 1 1 0 WarmZone 4p4 January       1  4  4  4  4  2  4  0 60  0  0  0  1
+61 1 1 0 WarmZone 4p5 January       1  4  4  4  4  2  4  0 61  0  0  0  1
+62 1 1 0 WarmZone 4p6 January       1  4  4  4  4  2  4  0 62  0  0  0  1
+63 1 1 0 WarmZone 4p7 January       1  4  4  4  4  2  4  0 63  0  0  0  1
+64 1 1 0 WarmZone 4p10 January      1  4  4  4  4  2  4  0 64  0  0  0  1
+65 1 1 0 WarmZone 5p1 May           1  5  5  5  5  2  5  0 65  0  0  0  1
+66 1 1 0 WarmZone 5p3 May           1  5  5  5  5  2  5  0 66  0  0  0  1
+67 1 1 0 WarmZone 5p4 May           1  5  5  5  5  2  5  0 67  0  0  0  1
+68 1 1 0 WarmZone 5p5 May           1  5  5  5  5  2  5  0 68  0  0  0  1
+69 1 1 0 WarmZone 5p6 May           1  5  5  5  5  2  5  0 69  0  0  0  1
+70 1 1 0 WarmZone 5p7 May           1  5  5  5  5  2  5  0 70  0  0  0  1
+71 1 1 0 WarmZone 5p10 May          1  5  5  5  5  2  5  0 71  0  0  0  1
+72 1 1 0 WarmZone 6p1 Sept          1  6  6  6  6  2  6  0 72  0  0  0  1
+73 1 1 0 WarmZone 6p3 Sept          1  6  6  6  6  2  6  0 73  0  0  0  1
+74 1 1 0 WarmZone 6p4 Sept          1  6  6  6  6  2  6  0 74  0  0  0  1
+75 1 1 0 WarmZone 6p5 Sept          1  6  6  6  6  2  6  0 75  0  0  0  1
+76 1 1 0 WarmZone 6p6 Sept          1  6  6  6  6  2  6  0 76  0  0  0  1
+77 1 1 0 WarmZone 6p7 Sept          1  6  6  6  6  2  6  0 77  0  0  0  1
+78 1 1 0 WarmZone 6p10 Sept         1  6  6  6  6  2  6  0 78  0  0  0  1
+79 1 1 0 TypicZone 7p1 January      1  7  7  7  7  3  7  0 79  0  0  0  1
+80 1 1 0 TypicZone 7p3 January      1  7  7  7  7  3  7  0 80  0  0  0  1
+81 0 0 0 TypicZone 7p4 January      1  7  7  7  7  3  7  0 81  0  0  0  1
+82 0 0 0 TypicZone 7p5 January      1  7  7  7  7  3  7  0 82  0  0  0  1
+83 2 0 0 TypicZone 7p6 January      1  7  7  7  7  3  7  0 83  0  0  0  1
+84 3 0 0 TypicZone 7p7 January      1  7  7  7  7  3  7  0 84  0  0  0  1
+85 6 0 0 TypicZone 7p10 January     1  7  7  7  7  3  7  0 85  0  0  0  1
+86 7 0 0 TypicZone 8p1 May          1  8  8  8  8  3  8  0 86  0  0  0  1
+87 9 0 0 TypicZone 8p3 May          1  8  8  8  8  3  8  0 87  0  0  0  1
+88 0 0 0 TypicZone 8p4 May          1  8  8  8  8  3  8  0 88  0  0  0  1
+89 0 0 0 TypicZone 8p5 May          1  8  8  8  8  3  8  0 89  0  0  0  1
+90 2 0 0 TypicZone 8p6 May          1  8  8  8  8  3  8  0 90  0  0  0  1
+91 3 0 0 TypicZone 8p7 May          1  8  8  8  8  3  8  0 91  0  0  0  1
+92 6 0 0 TypicZone 8p10 May         1  8  8  8  8  3  8  0 92  0  0  0  1
+93 7 0 0 TypicZone 9p1 Sept         1  9  9  9  9  3  9  0 93  0  0  0  1
+94 9 0 0 TypicZone 9p3 Sept         1  9  9  9  9  3  9  0 94  0  0  0  1
+95 0 0 0 TypicZone 9p4 Sept         1  9  9  9  9  3  9  0 95  0  0  0  1
+96 6 0 0 TypicZone 9p5 Sept         1  9  9  9  9  3  9  0 96  0  0  0  1
+97 2 0 0 TypicZone 9p6 Sept         1  9  9  9  9  3  9  0 97  0  0  0  1
+98 3 0 0 TypicZone 9p7 Sept         1  9  9  9  9  3  9  0 98  0  0  0  1
+99 6 0 0 TypicZone 9p10 Sept        1  9  9  9  9  3  9  0 99  0  0  0  1
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 PI IB0068 HB-MD2CR
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 CoolZoEn SANV       -99   -99   -99   -99   -99   -99 C       40  CCQU000033 CoolZone January
+ 2 CoolZoMa SANV       -99   -99   -99   -99   -99   -99 C       40  CCQU000033 CoolZone May
+ 3 CoolZoSe SANV       -99   -99   -99   -99   -99   -99 C       40  CCQU000033 CoolZone September
+ 4 WarmZoEn BASF       -99   -99   -99   -99   -99   -99 C       40  CCQU000033 WarmZone January
+ 5 WarmZoMa BASF       -99   -99   -99   -99   -99   -99 C       40  CCQU000033 WarmZone May
+ 6 WarmZoSe BASF       -99   -99   -99   -99   -99   -99 C       40  CCQU000033 WarmZone September
+ 7 TYPICZEn ITCR       -99   -99   -99   -99   -99   -99 C       40  CCQU000033 TypicZone January
+ 8 TYPICZMa ITCR       -99   -99   -99   -99   -99   -99 C       40  CCQU000033 TypicZone May
+ 9 TYPICZSe ITCR       -99   -99   -99   -99   -99   -99 C       40  CCQU000033 TypicZone September
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1           84.39           10.28      1573                35    20   -99   -99   -99   -99
+ 2           84.39           10.28      1573                35    20   -99   -99   -99   -99
+ 3           84.39           10.28      1573                35    20   -99   -99   -99   -99
+ 4            85.5            10.7        90                35    20   -99   -99   -99   -99
+ 5            85.5            10.7        90                35    20   -99   -99   -99   -99
+ 6            85.5            10.7        90                35    20   -99   -99   -99   -99
+ 7           84.51           10.36       175                35    20   -99   -99   -99   -99
+ 8           84.51           10.36       175                35    20   -99   -99   -99   -99
+ 9           84.51           10.36       175                35    20   -99   -99   -99   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 21005 SA012 SA001 SA013  Soil Analysis CoolZone January
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1    15   -99   -99   -99   -99   -99   -99   -99   -99
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 2 21125 SA012 SA001 SA013  Soil Analysis CoolZone May
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 2    15   -99   -99   -99   -99   -99   -99   -99   -99
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 3 21248 SA012 SA001 SA013  Soil Analysis CoOlZone September
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 3    15   -99   -99   -99   -99   -99   -99   -99   -99
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 4 21005 SA012 SA001 SA013  Soil Analysis WarmZone January
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 4    15   -99   -99   -99   -99   -99   -99   -99   -99
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 5 21125 SA012 SA001 SA013  Soil Analysis WarmZone May
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 5    15   -99   -99   -99   -99   -99   -99   -99   -99
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 6 21248 SA012 SA001 SA013  Soil Analysis WarmZone September
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 6    15   -99   -99   -99   -99   -99   -99   -99   -99
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 7 21005 SA012 SA001 SA013  Soil Analysis TypicZone January
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 7    15   -99   -99   -99   -99   -99   -99   -99   -99
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 8 21125 SA012 SA001 SA013  Soil Analysis TypicZone May
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 8    15   -99   -99   -99   -99   -99   -99   -99   -99
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 9 21248 SA012 SA001 SA013  Soil Analysis TypicZone September
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 9    15   -99   -99   -99   -99   -99   -99   -99   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    PT 21005   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Initial Coonditions CoolZone January
+@C  ICBL  SH2O  SNH4  SNO3
+ 1     5   .47    .1    .8
+ 1    15  .473    .1    .8
+ 1    28  .491    .1    .8
+ 1    44   .51    .1    .8
+ 1    65  .527    .1    .8
+ 1    96  .536    .1    .8
+ 1   122  .549    .1    .8
+ 1   150  .553    .1    .8
+ 1   178  .541    .1    .8
+ 1   196  .488    .1    .8
+ 1   230  .488    .1    .8
+ 1   260  .488    .1    .8
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 2    PT 21125   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Initial Coonditions CoolZone May
+@C  ICBL  SH2O  SNH4  SNO3
+ 2     5   .47    .1    .8
+ 2    15  .473    .1    .8
+ 2    28  .491    .1    .8
+ 2    44   .51    .1    .8
+ 2    65  .527    .1    .8
+ 2    96  .536    .1    .8
+ 2   122  .549    .1    .8
+ 2   150  .553    .1    .8
+ 2   178  .541    .1    .8
+ 2   196  .488    .1    .8
+ 2   230  .488    .1    .8
+ 2   260  .488    .1    .8
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 3    PT 21248   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Initial Coonditions September
+@C  ICBL  SH2O  SNH4  SNO3
+ 3     5   .47    .1    .8
+ 3    15  .473    .1    .8
+ 3    28  .491    .1    .8
+ 3    44   .51    .1    .8
+ 3    65  .527    .1    .8
+ 3    96  .536    .1    .8
+ 3   122  .549    .1    .8
+ 3   150  .553    .1    .8
+ 3   178  .541    .1    .8
+ 3   196  .488    .1    .8
+ 3   230  .488    .1    .8
+ 3   260  .488    .1    .8
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 4    CO 21005   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Initial Coonditions WarmZone January
+@C  ICBL  SH2O  SNH4  SNO3
+ 4     5   .47    .1    .8
+ 4    15  .473    .1    .8
+ 4    28  .491    .1    .8
+ 4    44   .51    .1    .8
+ 4    65  .527    .1    .8
+ 4    96  .536    .1    .8
+ 4   122  .549    .1    .8
+ 4   150  .553    .1    .8
+ 4   178  .541    .1    .8
+ 4   196  .488    .1    .8
+ 4   230  .488    .1    .8
+ 4   260  .488    .1    .8
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 5    CO 21125   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Initial Coonditions WarmZone May
+@C  ICBL  SH2O  SNH4  SNO3
+ 5     5   .47    .1    .8
+ 5    15  .473    .1    .8
+ 5    28  .491    .1    .8
+ 5    44   .51    .1    .8
+ 5    65  .527    .1    .8
+ 5    96  .536    .1    .8
+ 5   122  .549    .1    .8
+ 5   150  .553    .1    .8
+ 5   178  .541    .1    .8
+ 5   196  .488    .1    .8
+ 5   230  .488    .1    .8
+ 5   260  .488    .1    .8
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 6    CO 21248   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Initial Coonditions WarmZone September
+@C  ICBL  SH2O  SNH4  SNO3
+ 6     5   .47    .1    .8
+ 6    15  .473    .1    .8
+ 6    28  .491    .1    .8
+ 6    44   .51    .1    .8
+ 6    65  .527    .1    .8
+ 6    96  .536    .1    .8
+ 6   122  .549    .1    .8
+ 6   150  .553    .1    .8
+ 6   178  .541    .1    .8
+ 6   196  .488    .1    .8
+ 6   230  .488    .1    .8
+ 6   260  .488    .1    .8
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 7    CS 21005   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Initial Coonditions TypicZone January
+@C  ICBL  SH2O  SNH4  SNO3
+ 7     5   .47    .1    .8
+ 7    15  .473    .1    .8
+ 7    28  .491    .1    .8
+ 7    44   .51    .1    .8
+ 7    65  .527    .1    .8
+ 7    96  .536    .1    .8
+ 7   122  .549    .1    .8
+ 7   150  .553    .1    .8
+ 7   178  .541    .1    .8
+ 7   196  .488    .1    .8
+ 7   230  .488    .1    .8
+ 7   260  .488    .1    .8
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 8    CS 21125   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Initial Coonditions TypicZone May
+@C  ICBL  SH2O  SNH4  SNO3
+ 8     5   .47    .1    .8
+ 8    15  .473    .1    .8
+ 8    28  .491    .1    .8
+ 8    44   .51    .1    .8
+ 8    65  .527    .1    .8
+ 8    96  .536    .1    .8
+ 8   122  .549    .1    .8
+ 8   150  .553    .1    .8
+ 8   178  .541    .1    .8
+ 8   196  .488    .1    .8
+ 8   230  .488    .1    .8
+ 8   260  .488    .1    .8
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 9    CS 21248   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Initial Coonditions TypicZone September
+@C  ICBL  SH2O  SNH4  SNO3
+ 9     5   .47    .1    .8
+ 9    15  .473    .1    .8
+ 9    28  .491    .1    .8
+ 9    44   .51    .1    .8
+ 9    65  .527    .1    .8
+ 9    96  .536    .1    .8
+ 9   122  .549    .1    .8
+ 9   150  .553    .1    .8
+ 9   178  .541    .1    .8
+ 9   196  .488    .1    .8
+ 9   230  .488    .1    .8
+ 9   260  .488    .1    .8
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 21005   -99  1.33   -99     T     R    75    90    15   919   -99   -99   -99   -99                        Planting CoolZone January
+ 2 21123   -99  1.33   -99     T     R    75    90    15   962   -99   -99   -99   -99                        Planting CoolZone May
+ 3 21242   -99  1.33   -99     T     R    75    90    15   935   -99   -99   -99   -99                        Planting CoolZone September
+ 4 21006   -99  1.33   -99     T     R    75    90    15   919   -99   -99   -99   -99                        Planting WarmZone January
+ 5 21124   -99  1.33   -99     T     R    75    90    15   962   -99   -99   -99   -99                        Planting WarmZone May
+ 6 21243   -99  1.33   -99     T     R    75    90    15   935   -99   -99   -99   -99                        Planting WarmZone September
+ 7 21005   -99  1.33   -99     T     R    75    90    15   919   -99   -99   -99   -99                        Planting TypicZone January
+ 8 21123   -99  1.33   -99     T     R    75    90    15   962   -99   -99   -99   -99                        Planting TypicZone May
+ 9 21243   -99  1.33   -99     T     R    75    90    15   935   -99   -99   -99   -99                        Planting TypicZone September
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 GS000 IR001    10 CoolZone
+@I IDATE  IROP IRVAL
+ 1 21019 IR005  43.1
+ 1 21025 IR005  43.1
+ 1 21039 IR005  43.1
+ 1 21048 IR005  43.1
+ 1 21053 IR005  43.1
+ 1 21060 IR005  43.1
+ 1 21067 IR005  43.1
+ 1 21074 IR005  43.1
+ 1 21081 IR005    30
+ 1 21088 IR005  43.1
+ 1 21095 IR005  43.1
+ 1 21116 IR005  43.1
+ 1 22019 IR005  43.1
+ 1 22060 IR005  43.1
+ 1 22074 IR005  43.1
+ 1 22089 IR005  43.1
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 2     1    30    50   100 GS000 IR001    10 WarmZone
+@I IDATE  IROP IRVAL
+ 2 21006 IR005  43.1
+ 2 21013 IR005  43.1
+ 2 21020 IR005  43.1
+ 2 21026 IR005  43.1
+ 2 21034 IR005  43.1
+ 2 21040 IR005  43.1
+ 2 21047 IR005  43.1
+ 2 21054 IR005  43.1
+ 2 21061 IR005  43.1
+ 2 21068 IR005  43.1
+ 2 21075 IR005  43.1
+ 2 21082 IR005  43.1
+ 2 21089 IR005  43.1
+ 2 21096 IR005  43.1
+ 2 21103 IR005  21.6
+ 2 21117 IR005  43.1
+ 2 21124 IR005  43.1
+ 2 21131 IR005  43.1
+ 2 21138 IR005  43.1
+ 2 21144 IR005  43.1
+ 2 21152 IR005  43.1
+ 2 21166 IR005    20
+ 2 21201 IR005  43.1
+ 2 21277 IR005  43.1
+ 2 21284 IR005  43.1
+ 2 21320 IR005  43.1
+ 2 21326 IR005  43.1
+ 2 21333 IR005  43.1
+ 2 21340 IR005  43.1
+ 2 21347 IR005  43.1
+ 2 21354 IR005  43.1
+ 2 21361 IR005  43.1
+ 2 22003 IR005  43.1
+ 2 22010 IR005  43.1
+ 2 22017 IR005  43.1
+ 2 22024 IR005  43.1
+ 2 22031 IR005  43.1
+ 2 22039 IR005  43.1
+ 2 22045 IR005  43.1
+ 2 22052 IR005  43.1
+ 2 22059 IR005  43.1
+ 2 22066 IR005  43.1
+ 2 22073 IR005  43.1
+ 2 22080 IR005  43.1
+ 2 22088 IR005  43.1
+ 2 22095 IR005  43.1
+ 2 22101 IR005  43.1
+ 2 22108 IR005  43.1
+ 2 22115 IR005  43.1
+ 2 22122 IR005  43.1
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 3     1    30    50   100 GS000 IR001    10 TypicZone
+@I IDATE  IROP IRVAL
+ 3 21019 IR005  43.1
+ 3 21025 IR005  43.1
+ 3 21032 IR005  43.1
+ 3 21039 IR005  43.1
+ 3 21046 IR005  43.1
+ 3 21053 IR005  43.1
+ 3 21060 IR005  43.1
+ 3 21067 IR005  43.1
+ 3 21074 IR005  43.1
+ 3 21081 IR005  43.1
+ 3 21088 IR005  43.1
+ 3 21095 IR005  43.1
+ 3 21116 IR005  21.6
+ 3 21123 IR005  43.1
+ 3 22011 IR005  43.1
+ 3 22025 IR005  43.1
+ 3 22038 IR005  43.1
+ 3 22053 IR005  43.1
+ 3 22060 IR005  43.1
+ 3 22074 IR005  43.1
+ 3 22085 IR005  43.1
+ 3 22092 IR005  43.1
+ 3 22109 IR005  43.1
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 21005 FE001 AP006     1    10   -99   -99   -99   -99   -99 Fertilizer CoolZone Enero
+ 1 21005 FE005 AP006     1    23   -99   -99   -99   -99   -99 Fertilizer CoolZone Enero
+ 2 21125 FE001 AP006     1    10   -99   -99   -99   -99   -99 Fertilizer CoolZone Mayo
+ 2 21125 FE005 AP006     1    23   -99   -99   -99   -99   -99 Fertilizer CoolZone Mayo
+ 3 21248 FE001 AP006     1    10   -99   -99   -99   -99   -99 Fertilizer CoolZone Setiembre
+ 3 21248 FE005 AP006     1    23   -99   -99   -99   -99   -99 Fertilizer CoolZone Setiembre
+ 4 21005 FE001 AP006     1    10   -99   -99   -99   -99   -99 Fertilizer WarmZone Enero
+ 4 21005 FE005 AP006     1    23   -99   -99   -99   -99   -99 Fertilizer WarmZone Enero
+ 5 21125 FE005 AP006     1    23   -99   -99   -99   -99   -99 Fertilizer WarmZone Mayo
+ 5 21125 FE001 AP006     1    10   -99   -99   -99   -99   -99 Fertilizer WarmZone Mayo
+ 6 21248 FE005 AP006     1    23   -99   -99   -99   -99   -99 Fertilizer WarmZone Setiembre
+ 6 21248 FE001 AP006     1    10   -99   -99   -99   -99   -99 Fertilizer WarmZone Setiembre
+ 7 21005 FE001 AP006     1    10   -99   -99   -99   -99   -99 Fertilizer TypicZone Enero
+ 7 21005 FE005 AP006     1    23   -99   -99   -99   -99   -99 Fertilizer TypicZone Enero
+ 8 21125 FE001 AP006     1    10   -99   -99   -99   -99   -99 Fertilizer TypicZone Mayo
+ 8 21125 FE005 AP006     1    23   -99   -99   -99   -99   -99 Fertilizer TypicZone Mayo
+ 9 21248 FE005 AP006     1    23   -99   -99   -99   -99   -99 Fertilizer TypicZone Setiembre
+ 9 21248 FE001 AP006     1    10   -99   -99   -99   -99   -99 Fertilizer TypicZone Setiembre
+
+*RESIDUES AND ORGANIC FERTILIZER
+@R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
+ 1 21004   -99   -99   -99   -99   -99   -99   -99   -99 -99
+
+*CHEMICAL APPLICATIONS
+@C CDATE CHCOD CHAMT  CHME CHDEP   CHT..CHNAME
+ 1 22046 CH102     1 AP006   -99   -99  CoolZone January Forcing
+ 2 22089 CH102     1 AP006   -99   -99  CoolZone May Forcing
+ 3 22284 CH102     1 AP006   -99   -99  CoolZone September Forcing
+ 4 21235 CH102     1 AP006   -99   -99  WarmZone January Forcing
+ 5 21340 CH102     1 AP006   -99   -99  WarmZone May Forcing
+ 6 22129 CH102     1 AP006   -99   -99  WarmZone September Forcing
+ 7 21182 CH102     1 AP006   -99   -99  TypicZone January Forcing
+ 8 21335 CH102     1 AP006   -99   -99  TypicZone May Forcing
+ 9 22137 CH102     1 AP006   -99   -99  TypicZone September Forcing
+10 22046 CH102     1 AP006   -99   -99  CoolZone January-1r1
+11 22046 CH102     1 AP006   -99   -99  CoolZone January-1r2
+12 22068 CH102     1 AP006   -99   -99  CoolZone January-1r3
+13 22089 CH102     1 AP006   -99   -99  CoolZone May-2r1
+14 22089 CH102     1 AP006   -99   -99  CoolZone May-2r2
+15 22089 CH102     1 AP006   -99   -99  CoolZone May-2r3
+16 22284 CH102     1 AP006   -99   -99  CoolZone Sept-3r1
+17 22284 CH102     1 AP006   -99   -99  CoolZone Sept-3r2
+18 22284 CH102     1 AP006   -99   -99  CoolZone Sept-3r3
+19 21235 CH102     1 AP006   -99   -99  WarmZone January-4r1
+20 21235 CH102     1 AP006   -99   -99  WarmZone January-4r2
+21 21235 CH102     1 AP006   -99   -99  WarmZone January-4r3
+22 21340 CH102     1 AP006   -99   -99  WarmZone May-5r1
+23 21340 CH102     1 AP006   -99   -99  WarmZone May-5r2
+24 21340 CH102     1 AP006   -99   -99  WarmZone May-5r3
+25 22129 CH102     1 AP006   -99   -99  WarmZone Sept-6r1
+26 22129 CH102     1 AP006   -99   -99  WarmZone Sept-6r2
+27 22129 CH102     1 AP006   -99   -99  WarmZone Sept-6r3
+28 21179 CH102     1 AP006   -99   -99  TypicZone January-7r1
+29 21179 CH102     1 AP006   -99   -99  TypicZone January-7r2
+30 21179 CH102     1 AP006   -99   -99  TypicZone January-7r3
+31 21335 CH102     1 AP006   -99   -99  TypicZone May-8r1
+32 21335 CH102     1 AP006   -99   -99  TypicZone May-8r2
+33 21335 CH102     1 AP006   -99   -99  TypicZone May-8r3
+34 22137 CH102     1 AP006   -99   -99  TypicZone Sept-9r1
+35 22137 CH102     1 AP006   -99   -99  TypicZone Sept-9r2
+36 22137 CH102     1 AP006   -99   -99  TypicZone Sept-9r3
+37 22048 CH102     1 AP006   -99   -99  CoolZone January-NF 1p1
+38 22199 CH102     1 AP006   -99   -99  CoolZone January-NF 1p3
+39 22160 CH102     1 AP006   -99   -99  CoolZone January-NF 1p4
+40 22160 CH102     1 AP006   -99   -99  CoolZone January-NF 1p5
+41 22078 CH102     1 AP006   -99   -99  CoolZone January-NF 1p6
+42 22199 CH102     1 AP006   -99   -99  CoolZone January-NF 1p7
+43 22048 CH102     1 AP006   -99   -99  CoolZone January-NF 1p10
+44 22090 CH102     1 AP006   -99   -99  CoolZone May-NF 2p1
+45 22221 CH102     1 AP006   -99   -99  CoolZone May-NF 2p3
+46 22160 CH102     1 AP006   -99   -99  CoolZone May-NF 2p4
+47 22132 CH102     1 AP006   -99   -99  CoolZone May-NF 2p5
+48 22160 CH102     1 AP006   -99   -99  CoolZone May-NF 2p6
+49 22190 CH102     1 AP006   -99   -99  CoolZone May-NF 2p7
+50 22190 CH102     1 AP006   -99   -99  CoolZone May-NF 2p10
+51 22221 CH102     1 AP006   -99   -99  CoolZone Sept-NF 3p1
+52 22285 CH102     1 AP006   -99   -99  CoolZone Sept-NF 3p3
+53 22306 CH102     1 AP006   -99   -99  CoolZone Sept-NF 3p4
+54 22306 CH102     1 AP006   -99   -99  CoolZone Sept-NF 3p5
+55 22306 CH102     1 AP006   -99   -99  CoolZone Sept-NF 3p6
+56 22285 CH102     1 AP006   -99   -99  CoolZone Sept-NF 3p7
+57 22285 CH102     1 AP006   -99   -99  CoolZone Sept-NF 3p10
+58 21235 CH102     1 AP006   -99   -99  WarmZone January-4p1
+59 21235 CH102     1 AP006   -99   -99  WarmZone January-4p3
+60 21235 CH102     1 AP006   -99   -99  WarmZone January-4p4
+61 21235 CH102     1 AP006   -99   -99  WarmZone January-4p5
+62 21235 CH102     1 AP006   -99   -99  WarmZone January-4p6
+63 21235 CH102     1 AP006   -99   -99  WarmZone January-4p7
+64 21235 CH102     1 AP006   -99   -99  WarmZone January-4p10
+65 21340 CH102     1 AP006   -99   -99  WarmZone May-5p1
+66 21340 CH102     1 AP006   -99   -99  WarmZone May-5p3
+67 21340 CH102     1 AP006   -99   -99  WarmZone May-5p4
+68 21340 CH102     1 AP006   -99   -99  WarmZone May-5p5
+69 21340 CH102     1 AP006   -99   -99  WarmZone May-5p6
+70 21340 CH102     1 AP006   -99   -99  WarmZone May-5p7
+71 21340 CH102     1 AP006   -99   -99  WarmZone May-5p10
+72 22129 CH102     1 AP006   -99   -99  WarmZone Sept-6p1
+73 22129 CH102     1 AP006   -99   -99  WarmZone Sept-6p3
+74 22129 CH102     1 AP006   -99   -99  WarmZone Sept-6p4
+75 22129 CH102     1 AP006   -99   -99  WarmZone Sept-6p5
+76 22129 CH102     1 AP006   -99   -99  WarmZone Sept-6p6
+77 22129 CH102     1 AP006   -99   -99  WarmZone Sept-6p7
+78 22129 CH102     1 AP006   -99   -99  WarmZone Sept-6p10
+79 21236 CH102     1 AP006   -99   -99  TypicZone January-7p1
+80 21208 CH102     1 AP006   -99   -99  TypicZone January-7p3
+81 21187 CH102     1 AP006   -99   -99  TypicZone January-7p4
+82 21187 CH102     1 AP006   -99   -99  TypicZone January-7p5
+83 21179 CH102     1 AP006   -99   -99  TypicZone January-7p6
+84 21236 CH102     1 AP006   -99   -99  TypicZone January-7p7
+85 21179 CH102     1 AP006   -99   -99  TypicZone January-7p10
+86 21319 CH102     1 AP006   -99   -99  TypicZone May-8p1
+87 21319 CH102     1 AP006   -99   -99  TypicZone May-8p3
+88 21334 CH102     1 AP006   -99   -99  TypicZone May-8p4
+89 21339 CH102     1 AP006   -99   -99  TypicZone May-8p5
+90 21344 CH102     1 AP006   -99   -99  TypicZone May-8p6
+91 21339 CH102     1 AP006   -99   -99  TypicZone May-8p7
+92 21334 CH102     1 AP006   -99   -99  TypicZone May-8p10
+93 22125 CH102     1 AP006   -99   -99  TypicZone Sept-9p1
+94 22136 CH102     1 AP006   -99   -99  TypicZone Sept-9p3
+95 22136 CH102     1 AP006   -99   -99  TypicZone Sept-9p4
+96 22136 CH102     1 AP006   -99   -99  TypicZone Sept-9p5
+97 22125 CH102     1 AP006   -99   -99  TypicZone Sept-9p6
+98 22125 CH102     1 AP006   -99   -99  TypicZone Sept-9p7
+99 22136 CH102     1 AP006   -99   -99  TypicZone Sept-9p10
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 21004   -99   -99 -99
+
+*ENVIRONMENT MODIFICATIONS
+@E ODATE EDAY  ERAD  EMAX  EMIN  ERAIN ECO2  EDEW  EWIND ENVNAME  
+ 1 21004 A   0 A   0 A   0 A   0 A 0.0 A   0 A   0 A   0 
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 21004 GS000   -99   -99   -99   -99 
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 21004  2150 DEFAULT SIMULATION CONTR  PIALO
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     N     N     N     N     Y     N     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     G     S     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     Y     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          20005 20005    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 20005   100     0
+
+
+
